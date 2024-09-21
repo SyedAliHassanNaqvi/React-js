@@ -22,7 +22,14 @@ function App() {
           >
             Red
           </button>
-
+          <button
+            className="bg-blue-500 p-2 m-2"
+            onClick={() => {
+              colorChange("blue");
+            }}
+          >
+            Blue
+          </button>
           <button
             className="bg-green-500 p-2 m-2"
             onClick={() => {
